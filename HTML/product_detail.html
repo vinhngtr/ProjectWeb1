@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\CSS\product_detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>Chi tiết Product</title>
+</head>
+<body>
+    <div class="header">
+        <!-- Sile ADS - List catogery product -->
+        <div class="header2">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content1">
+                    <div class="logo">
+                        <a class="text_logo" href="index.html">Fashionista</a>
+                        <br>
+                        <a class="text_logo1" href="index.html">Online Shopping</a>
+                    </div>
+                    <ul class="links">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="introduce.html">Giới thiệu</a></li>
+                        <li><a href="contact.html">Liên hệ </a></li>
+                        <li>
+                            <a href="#" class="desktop-link">Tài khoản</a>
+                            <input type="checkbox" id="show-services">
+                            <label for="show-services">Tài khoản</label>
+                            <ul>
+                                <li><a href="#">Kiểm tra đơn hàng</a></li>
+                                <li><a href="infoUser.html">Quản lí tài khoản</a></li>
+                                <li><a href="#">Đăng xuất</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Đăng nhập</a></li>
+                        <li><a href="#">Đăng kí</a></li>
+                    </ul>
+              </div>
+              <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+              <form action="#" class="search-box">
+                <input type="text" placeholder="Tìm kiếm sản phẩm..." required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+              </form>
+            </nav>
+        </div>
+    </div>     
+    <div class="pd-wrap">
+        <div class="container">
+	        <div class="row">
+	        	<div class="col-md-5">
+                    <div class="main-img">
+                        <img class="img-fluid" src="https://images.unsplash.com/photo-1668603145974-c05f7a0e4552?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="ProductS">
+                        <div class="row my-3 previews">
+                            <div class="col-md-3">
+                                <img class="w-100" src="https://images.unsplash.com/photo-1669734219236-24df1c2d1e48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Sale">
+                            </div>
+                            <div class="col-md-3">
+                                <img class="w-100" src="https://images.unsplash.com/photo-1668603146337-be7fcd268306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Sale">
+                            </div>
+                            <div class="col-md-3">
+                                <img class="w-100" src="https://images.unsplash.com/photo-1669824137550-7bb7e1a55c9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=399&q=80" alt="Sale">
+                            </div>
+                            <div class="col-md-3">
+                                <img class="w-100" src="https://images.unsplash.com/photo-1669617450318-318cc22b9cab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Sale">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+	        	<div class="col-md-6">
+	        		<div class="product-dtl">
+        				<div class="product-info">
+		        			<div class="product-name">Tên sản phẩm</div>
+		        			<div class="product-price-discount"><span>$39.00</span><span class="line-through">$29.00</span></div>
+		        		</div>
+	        			<p>     
+                            Description_Product
+                        </p>
+	        			<div class="row">
+	        				<div class="col-md-6">
+	        					<label for="size">Size</label>
+								<select id="size" name="size" class="form-control" required>
+									<option>S</option>
+									<option>M</option>
+									<option>L</option>
+									<option>XL</option>
+								</select>
+	        				</div>
+	        				<div class="col-md-6">
+	        					<label for="color">Màu sắc</label>
+								<select id="color" name="color" class="form-control" required>
+									<option>Xanh</option>
+									<option>Trắng</option>
+									<option>Đen</option>
+								</select>
+	        				</div>
+	        			</div>
+	        			<div class="product-count">
+	        				<label for="size">Số lượng</label>
+	        				<form action="#" class="display-flex">
+                                <div class="block quantity">
+                                    <input type="number" class="form-control" id="cart_quantity" value="1" min="0" max="5" placeholder="Enter email" name="cart_quantity" required>
+                                </div>
+							</form>
+                            <div class="buyProduct">
+                                <a href="#" class="round-black-btn">Thêm vào giỏ hàng</a> 
+                                <a href="#" class="round-black-btn">Mua ngay</a> 
+                            </div>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </div>
+	        <div class="product-info-tabs">
+		        <ul class="nav nav-tabs" id="myTab" role="tablist">
+				  	<li class="nav-item">
+				    	<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+				  	</li>
+				  	<li class="nav-item">
+				    	<a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews (0)</a>
+				  	</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+				  	<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+				  		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+				  	</div>
+				  	<div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+				  		<div class="review-heading">REVIEWS</div>
+				  		<p class="mb-20">
+                            
+                            <h5 class="name_user">Nguyễn Trọng Vinh</h5>
+                            <span class="mail_user">vinhtrong782002@gmail.com</span>
+                            <span class="content_cmt" style="color: black; font-style:italic; font-size:18px">Sản phẩm quá đỉnh</span>
+                        </p>
+				  		<form class="review-form">
+		        			<div class="form-group">
+			        			<label>Your message</label>
+			        			<textarea class="form-control" rows="10"></textarea>
+			        		</div>
+			        		<div class="row">
+				        		<div class="col-md-6">
+				        			<div class="form-group">
+					        			<input type="text" name="" class="form-control" placeholder="Name*">
+					        		</div>
+					        	</div>
+				        		<div class="col-md-6">
+				        			<div class="form-group">
+					        			<input type="text" name="" class="form-control" placeholder="Email*">
+					        		</div>
+					        	</div>
+					        </div>
+					        <button class="round-black-btn">Submit Review</button>
+			        	</form>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="	sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="..\JS\main.js"></script>
+</body>
+</html>
+  
+   
+
